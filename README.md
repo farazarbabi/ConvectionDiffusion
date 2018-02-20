@@ -1,7 +1,7 @@
 ## ConvectionDiffusion
 This FORTRAN code is developed to solve convection-diffusion equation in a 2D geometry (see Fig.1). \
 \
-<img src="box2.gif" width="400"> 
+<img src="box.gif" width="400"> 
 Fig.1. Schematic illustration of the geometry.
 \
 The task is to build a convection and diffusion couples solver. Thus the main goal here is to solve the convection-diffusion equation for a passive scalar φ as:\
@@ -13,7 +13,7 @@ This modular code was developed using (i) Central Difference, (ii) Upwind, and (
 
 The contour calculated for ρ=100, u=v=2, and Г=5.0 on a 50x50 grid is shown below. 
 
-<img src="result2.png" width="400"> 
+<img src="result.png" width="400"> 
 
 **Developed by Faraz Arbabi, Ph.D.®\
 University of Toronto**

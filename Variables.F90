@@ -1,7 +1,7 @@
 Subroutine Variables
 ! *************************Describing Varables ******************
-!    PRINT *, '********** Convection-Diffusion Solver ***********'
-!    PRINT *, '********  By FARAZ ARBABI ***************'
+!    PRINT *, '********** Assignment No. 3 ***********'
+!    PRINT *, '******** Code By FARAZ ARBABI ***************'
 !    PRINT *, '---------------------------------------------------------------' 
 !    Print *,'ENTER the Dimension of Nodes in X direction (m):'
 !    Read *,m
@@ -24,20 +24,25 @@ Subroutine Variables
 
 
  Use Parameters
-    
+! Grid cells   
     m=50
     n=50
+! Density
 	Ru=100.0
+! Phi
 	Pw= 100.0
 	Pe= 0.0
 	Ps=0.0
 	Pn=100.0
+!Velocity
 	u=2.0
 	v=2.0
 
-	
-	gamma=0.0
+! Diffusivity
+	gamma=5.0
+! residuals
 	Residual= 1e-5
+! Length
     Lx=1.0
     Ly=1.0
     

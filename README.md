@@ -1,8 +1,8 @@
 ## ConvectionDiffusion
 This FORTRAN code is developed to solve convection-diffusion equation in a 2D geometry (see Fig.1). \
 \
-<img src="box.gif" width="400"> 
-Fig.1. Schematic illustration of the geometry.
+<img src="box.gif"  width="400" align="center"> \
+_Fig.1. Schematic illustration of the geometry._\
 \
 The task is to build a convection and diffusion couples solver. Thus the main goal here is to solve the convection-diffusion equation for a passive scalar φ as:\
 \
@@ -11,9 +11,10 @@ The task is to build a convection and diffusion couples solver. Thus the main go
 Considering the velocity field is known, the above transport equation predicts the motion of a scalar (such as temperature) due to three mechanisms: (1) convection, (2) diffusion and (3) any added source terms. \
 This modular code was developed using (i) Central Difference, (ii) Upwind, and (iii) Quick schemes for a given velocity field _u(x; y) = (u(x; y); v(x; y))_.
 
-The contour calculated for ρ=100, u=v=2, and Г=5.0 on a 50x50 grid is shown below. 
+### Result
+The contour calculated for ρ=100, u=v=2, and Г=5.0 case on a 50x50 grid is shown below. 
 
-<img src="result.png" width="400"> 
+<img src="result.png" width="400" align="center"> 
 
 **Developed by Faraz Arbabi, Ph.D.®\
 University of Toronto**

@@ -1,7 +1,7 @@
 Subroutine Variables
 ! *************************Describing Varables ******************
-!    PRINT *, '********** Assignment No. 3 ***********'
-!    PRINT *, '******** Code By FARAZ ARBABI ***************'
+!    PRINT *, '********** Convection-Diffusion Solver ***********'
+!    PRINT *, '********  By FARAZ ARBABI ***************'
 !    PRINT *, '---------------------------------------------------------------' 
 !    Print *,'ENTER the Dimension of Nodes in X direction (m):'
 !    Read *,m

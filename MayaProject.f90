@@ -1,18 +1,18 @@
-!  Assignment3.f90 
+!  MayaProject.f90 
 !
 !  FUNCTIONS:
-!  Assignment3 - Entry point of console application.
+!  ConvectionDiffusion - Entry point of console application.
 !
 
 !****************************************************************************
 !
-!  PROGRAM: Assignment3
+!  PROGRAM: Convection-diffusion Solver
 !
-!  PURPOSE:  Entry point for the console application.
+!  PURPOSE:  To solve 2D convection-diffusion equations using Upwind, Central Difference and Quick methods.
 !
 !****************************************************************************
 
-    program Assignment3
+    program ConvectionDiffusion
     use parameters
     implicit none
 
@@ -94,11 +94,9 @@
 
 !********* Scheme Selection *************
 
-!    Print *, 'Now you have to choose your favorite scheme for solution'
-!    Print *, 'Enter CD for Central Difference or UP for Upwind or QU for Quick (case sensitive)'
-!    Read *, SS
-    SS="UP"
-
+    Print *, 'Choose your favorite scheme for solution; press Enter to see your options.'
+    Print *, 'Enter CD for Central Difference or UP for Upwind or QU for Quick (case sensitive)'
+    Read *, SS
 
 !********* Iteration **********
 
@@ -122,8 +120,6 @@
    
     End If
 
-
-    
  !  ************* Convergence Check **********
  
        DiffP=0.0
@@ -157,7 +153,7 @@
 	END IF
  
  
- ! Results
+ ! Results output
    
        ! Write(fname,'(2a,i3.3,a,f3.1,a)')'output-',G,m,SS,gamma,'.plt'
        
@@ -196,5 +192,5 @@
     Print *,'Completed. Press Enter to Exit'
     read *
 
-    end program Assignment3
+    end program ConvectionDiffusion
 
